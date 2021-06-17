@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "khs",
+  "info": {
+    "name": "khs"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "kode": {
+      "type": "string"
+    },
+    "matakuliah": {
+      "type": "string"
+    },
+    "kelas": {
+      "type": "string"
+    },
+    "wp": {
+      "type": "string"
+    },
+    "sks": {
+      "type": "string"
+    },
+    "nilai": {
+      "type": "string"
+    }
+  }
+}

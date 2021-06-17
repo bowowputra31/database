@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "krs",
+  "info": {
+    "name": "krs"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "kode": {
+      "type": "string"
+    },
+    "matakuliah": {
+      "type": "string"
+    },
+    "sks": {
+      "type": "string"
+    },
+    "kelas": {
+      "type": "string"
+    },
+    "hari": {
+      "type": "string"
+    },
+    "jam": {
+      "type": "string"
+    }
+  }
+}

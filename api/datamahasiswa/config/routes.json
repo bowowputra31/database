@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/datamahasiswas",
+      "handler": "datamahasiswa.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/datamahasiswas/count",
+      "handler": "datamahasiswa.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/datamahasiswas/:id",
+      "handler": "datamahasiswa.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/datamahasiswas",
+      "handler": "datamahasiswa.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/datamahasiswas/:id",
+      "handler": "datamahasiswa.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/datamahasiswas/:id",
+      "handler": "datamahasiswa.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

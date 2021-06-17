@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "datamahasiswas",
+  "info": {
+    "name": "datamahasiswa",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nim": {
+      "type": "string"
+    },
+    "nama": {
+      "type": "string"
+    },
+    "fakultas": {
+      "type": "string"
+    },
+    "jurusan": {
+      "type": "string"
+    },
+    "prodi": {
+      "type": "string"
+    },
+    "angkatan": {
+      "type": "string"
+    },
+    "fotoprofil": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
